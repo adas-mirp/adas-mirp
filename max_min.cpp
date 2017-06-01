@@ -1,0 +1,19 @@
+	#include<iostream>
+using namespace std;
+int main () {
+int n,number;
+int max=1000, int min=-1000;
+cout<<"Enter the number of inputs";
+cin>>n;
+for(int i=0 ; i<=n ; i++)
+{
+cout<<"Enter the number"<<number<<endl;
+if (number <= min) 
+{ min=number;
+}
+else if (number > min && number > max)
+{ max=number;
+}
+}
+return 0;
+}
