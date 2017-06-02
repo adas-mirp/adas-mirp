@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main () {
+int sum=0;
+float average;
+int N,number;
+cout<<"Enter the number";
+cin>>number;
+while (int u=0 ; u<N ; u++)
+{
+sum=+number;
+}
+average=sum/N;
+cout<<"average"<<average";
+cin>>average;
+return 0;
+}

@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main () {
+int N ;
+cout<<"Enter the number of rows:";
+cin>>N
+ for (i=1 ; i<=N ; i++)
+{ 
+ for (a=N-1 ; a>=1 ; a--)
+  { cout<<"*";
+   }
+  for (p=1 ; p<=i ; p++)
+  { cout<<"i";
+  }
+}
+return 0;
+}
